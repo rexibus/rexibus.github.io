@@ -1,0 +1,101 @@
+
+body {
+  color: rgb(30, 30, 30);
+  background-color: #EBEBEB;
+  /*background-image: url("images/DSC_0644.JPG");
+  background-size: cover;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 { font-family: 'PT Sans', sans-serif; }
+
+h1 {
+  color: #444;
+  font-size: 22px;
+}
+
+h2 {
+  color: #444;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+a {
+  color:inherit;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  display: block;
+}
+
+li {
+  display: inline-block;
+}
+.link-no-deco {
+  text-decoration: none;
+  color: rgb(120,120,120);
+}
+
+.btn-red {
+    background-color: #444;;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.movie_picture {
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+  background-image: url("images/regis_weill_picture.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card-text-center {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.list-inline{
+  padding-left: 0;
+}
+
+.margin-around {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.center-table {
+  margin: auto;
+}
+
