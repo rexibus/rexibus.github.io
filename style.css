@@ -1,101 +1,148 @@
-
+/*body : font & colors*/
 body {
-  color: rgb(30, 30, 30);
-  background-color: #EBEBEB;
-  /*background-image: url("images/DSC_0644.JPG");
-  background-size: cover;*/
+  color: #1e1e1e;
+  background-color: rgb(235,235,235);
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+ /* line-height: 1.6;*/
 }
 
-h1, h2, h3 { font-family: 'PT Sans', sans-serif; }
+h1, h2, h3 {
+  font-family: 'PT Sans', sans-serif;
+}
 
 h1 {
-  color: #444;
+/*blu*/
+  /*color: #5C80BC;*/
+  /*color: #2F89FC;*/
+  /*color: #0094C6;*/
+  color: #226CE0;
+  /*color: #004BA8;*/
+/*verde*/
+  /*color: #379634;*/
+  /*color: #1f4629;*/
+/*organge*/
+  /*color: #DD6031;*/
   font-size: 22px;
+  line-height: 1.6;
 }
 
 h2 {
-  color: #444;
-  font-size: 18px;
-  font-weight: 300;
+color: #444;
+font-size: 18px;
+font-weight: 300;
 }
 
 a {
-  color:inherit;
+  color: inherit;
 }
+
+a:hover {
+  color: #226CE0;
+  opacity: 0.5;
+}
+
+/*custom design*/
 
 div {
   display: block;
 }
 
-ul {
-  list-style: none;
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
-li a {
-  display: block;
+.card-white-text-center {
+/*  width: 500px;
+  margin: 30px auto;*/
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-li {
-  display: inline-block;
-}
-.link-no-deco {
-  text-decoration: none;
-  color: rgb(120,120,120);
-}
-
-.btn-red {
-    background-color: #444;;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-.movie_picture {
-width: 200px;
-height: 200px;
-object-fit: cover;
+.text-center {
+  text-align: center;
 }
 
 #img-profile {
   width: 100px;
   height: 100px;
+  object-fit: cover;
   border: 3px solid #cccccc;
-  background-image: url("images/regis_weill_picture.jpg");
-  background-size: cover;
-  background-position: center;
-  margin: 0 auto;
 }
 
-.img_circle {
-  border-radius: 50%;
+.img-circle {
+  border-radius: 50px;
 }
 
-.container {
-    width: 500px;
-    margin: 30px auto;
+.img-content-small {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
-.card-text-center {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
-  text-align: center;
+.img-movie-small {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
-.list-inline{
+.shadowed {
+  border: 5px 5px 3px black;
+}
+
+.list-inline {
+  list-style: none;
   padding-left: 0;
 }
 
-.margin-around {
-  margin-left: 2px;
-  margin-right: 2px;
+.list-inline li {
+  display: inline-block;
+  padding: 0px 2px;
 }
 
-.center-table {
-  margin: auto;
+.table-centered {
+margin: auto;
 }
+
+.link-no-deco-grey {
+  text-decoration: none;
+  color: rgb(120,120,120);
+}
+.link-no-deco {
+  text-decoration: none;
+}
+
+/*#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}*/
 
